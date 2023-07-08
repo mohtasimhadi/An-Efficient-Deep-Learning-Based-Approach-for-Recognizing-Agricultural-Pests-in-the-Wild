@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Ensemble} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score}\\
+\hline
+ResNet152 + EfficientNetV2 & 0.7430 & 0.6901 & 0.6475 & 0.6594\\
+\hline
+ResNet152 + ViT & 0.7648 & 0.7271 & 0.6670 & 0.6874\\
+\hline
+EfficientNetV2 + ViT & 0.7670 & 0.7173 & 0.6808 & 0.6930\\
+\hline
+ResNet152 + ConvNext & 0.7700 & 0.7286 & 0.6738 & 0.6921\\
+\hline
+EfficientNetV2 + ConvNext & 0.7732 & 0.7272 & 0.6803 & 0.6949\\
+\hline
+ViT + ConvNext & 0.7800 & 0.7290 & 0.6922 & 0.7056\\
+\hline
+\end{tabular}
+\caption{Result of Ensemble of pretrained models on IP102}
+\end{table}

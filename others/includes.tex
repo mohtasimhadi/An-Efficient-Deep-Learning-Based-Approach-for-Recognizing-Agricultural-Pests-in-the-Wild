@@ -1,0 +1,46 @@
+\usepackage{afterpage}
+\usepackage[numbers]{natbib}
+\usepackage[hmargin=2.8cm,vmargin=2.0cm,includeheadfoot]{geometry}
+\usepackage{tabularx,longtable,multirow,subfigure,caption}
+\usepackage{emptypage}
+\usepackage{arabtex}
+\usepackage{utf8}
+\setcode{utf8}
+\usepackage{url}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+% We will externalize the figures
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\usepackage{graphicx}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=40mm,
+ top=20mm,
+ }
+
+\ifxetex
+\usepackage{fontspec}
+\else
+\usepackage[pdftex,pagebackref,hypertexnames=false,colorlinks]{hyperref}
+\hypersetup{pdftitle={},
+  pdfsubject={}, 
+  pdfauthor={Mohtasim Hadi Rafi},
+  pdfkeywords={}, 
+  pdfstartview=FitH,
+  pdfpagemode={UseOutlines},
+  bookmarksnumbered=true, bookmarksopen=true, colorlinks,
+    citecolor=blue,%
+    filecolor=blue,%
+    linkcolor=black,%
+    urlcolor=blue}
+\usepackage[all]{hypcap}
+
+
+\bibliographystyle{apalike}

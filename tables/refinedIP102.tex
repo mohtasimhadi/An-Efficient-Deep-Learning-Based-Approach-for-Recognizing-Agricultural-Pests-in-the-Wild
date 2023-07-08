@@ -1,0 +1,14 @@
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Dataset (train)} & \textbf{Model} & \textbf{Accuracy} & \textbf{Prev (original)}\\
+\hline
+Changed & \multirow{2}{5em}{ResNet152} & 0.7744 & 0.7200\\\cline{1-1} \cline{3-4}
+Unchanged & & 0.5160 & 0.7200\\\cline{1-4}
+Changed & \multirow{2}{5em}{ConvNext} & 0.8382 & 0.7600 \\\cline{1-1} \cline{3-4}
+Unchanged & & 0.6400 & 0.7600\\
+\hline
+\end{tabular}
+\caption{Performance of Refined IP102 created by Discarding images that do not include pest }
+\end{table}

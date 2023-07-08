@@ -1,0 +1,13 @@
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Method} & \textbf{Dataset (train)} & \textbf{Model} & \textbf{Acc} & \textbf{Prev}\\
+\hline
+\multirow{3}{10em}{Merging the feature extractors + custom classifier} & Changed & \multirow{3}{5em}{ConvNext + ViT} & 0.8500 & 0.7600 \\\cline{2-2}\cline{4-5}
+& Unchanged & & 0.6400 & 0.7600\\\cline{2-2}\cline{4-5}
+& original dataset & & 0.7638 & 0.7600\\\cline{2-2}\cline{4-5}
+\hline
+\end{tabular}
+\caption{Performance of Custom dataset on both Refined and original IP102}
+\end{table}
